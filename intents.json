@@ -1,0 +1,33 @@
+{"intents":
+[
+    {"tag": "greeting",
+     "patterns": ["Hey", "Hi", "Hello", "Whats up", "Good morning", "Good afternoon", "Good evening", "Wake up", "Greetings"],
+     "responses": ["Hello sir", "Greetings", "Jarvis is waiting for your command"]
+    },
+    {"tag": "search_in_google",
+     "patterns": ["Search in Google", "Look in Google", "Find information about", "Who", "What is the smth", "When", "Where", "What is a smth"],
+     "responses": [""]
+    },
+    {"tag": "browser",
+     "patterns": ["open browser", "open opera"],
+     "responses": [""]
+    },
+    {"tag": "youtube",
+     "patterns": ["open youtube", "find a video"],
+     "responses": [""]
+    },
+    {"tag": "joke",
+     "patterns": ["Do you know jokes", "Say a joke", "Make me laugh", "tell me something funny", "tell me a joke"],
+     "responses": [""]},
+    {"tag": "time",
+     "patterns": ["what time is it", "current time", "time now", "get time"],
+     "responses": [""]
+    },
+    {"tag": "date",
+     "patterns": ["What is the day today", "weekday", "get date", "date"],
+     "responses": [""]},
+    {"tag": "timer",
+     "patterns": ["set timer", "create time", "remind me"],
+     "responses": [""]
+    }
+]}

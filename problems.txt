@@ -1,0 +1,24 @@
+Questions:
+1. How does voice assistant work?
+2. What import modules to use?
+3. How assistant can internet with internet to find information?
+4. How to make script run in background and run at startup?
+5. How to recognize command if it isn't exactly the same?
+Tasks:
+Create database where name of user will be stored
+Learn assistant:
+    - find information ✅
+    - open apps
+    - open browser ✅
+    - tell joke ✅
+    - tell current time ✅
+    - set a timer/reminder
+Extra task:
+Create a server, so voice assistant can use different people
+Create GUI or create a website
+Analyze:
+1. Voice assistant gets information via microphone then transcibes information, compares it with commands and perfom it, even if command was fuzzy
+2. To transcibe - https://pypi.org/project/silero, to match text - fuzzywuzzy, to talk - gTTS 
+3. https://blog.api.rakuten.net/top-10-best-search-apis/
+4. background pythonw file.py - on startup https://stackoverflow.com/questions/4438020/how-to-start-a-python-file-while-windows-starts
+5. https://habr.com/ru/post/491448/
